@@ -1,0 +1,67 @@
+.middle-top {
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#monitor-div{
+    margin-top: 100px;width: 60%;
+}
+
+#screen{
+    position:absolute;
+    width: 87.5%;
+    height: 75.2%;
+    left:6.2%;
+    font-size: 15px;
+    color: #999;
+    margin-top: 5%;
+    overflow-y: hidden;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 700px) {
+    #monitor-div {
+       width: 80%;
+    }
+    #name-div {
+        composes: middle-top;
+        width: 60%;
+    }
+}
+
+.middle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.developer{
+    position: fixed;
+    bottom: 0;
+    left: 70px;
+}
+.button{
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button-turn-off-on{
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+#monitor{
+    width: 100%;
+}
+
+
+#name{
+    width: 100%;
+}

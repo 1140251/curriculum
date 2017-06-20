@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="515.5px" viewBox="357.5 366.999 800 515.5" enable-background="new 357.5 366.999 800 515.5"
+	 xml:space="preserve">
+<g>
+	<animate
+             attributeName="opacity"
+             from="0" to="1" dur="5s"
+             begin="0s" />
+
+
+	<path fill="#828181" d="M390.696,371.291H1128.3c12.523,0,22.764,9.826,22.764,21.839v442.53c0,12.012-10.24,21.839-22.764,21.839
+		H390.696c-12.516,0-22.76-9.825-22.76-21.839V393.129C367.936,381.116,378.18,371.291,390.696,371.291z"/>
+	<path fill="#282828" d="M392.385,396.485h729.391c0.781,0,1.429,0.63,1.429,1.419V811.22c0,0.785-0.647,1.42-1.429,1.42H392.385
+		c-0.793,0-1.428-0.635-1.428-1.42V397.904C390.958,397.115,391.593,396.485,392.385,396.485z"/>
+	<rect x="405.5" y="407.499" width="703" height="392"/>
+	<circle fill="#FF0000" cx="1088.5" cy="837.499" r="8"/>
+</g>
+</svg>
