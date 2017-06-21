@@ -6,29 +6,66 @@
 }
 
 #monitor-div{
-    margin-top: 100px;width: 60%;
+    margin-top: 100px;width: 500px;
 }
 
 #screen{
     position:absolute;
     width: 87.5%;
     height: 75.2%;
-    left:6.2%;
-    font-size: 15px;
+    left:7%;
+    font-family: "Courier";
+    font-size: 14px;
     color: #999;
     margin-top: 5%;
-    overflow-y: hidden;
+    overflow: hidden;
+    white-space: nowrap;
     word-wrap: break-word;
+    font-size: 15px;
+    animation: type 4s steps(60, end);
+}
+p{
+    overflow: hidden;
+    white-space: nowrap;
+
+    font-size: 15px;
+    animation: type 6s steps(60, end);
 }
 
-@media screen and (max-width: 700px) {
-    #monitor-div {
-       width: 80%;
-    }
-    #name-div {
-        composes: middle-top;
-        width: 60%;
-    }
+p:nth-child(2){
+    animation: type2 6s steps(60, end);
+}
+p:nth-child(3){
+    animation: type2 9s steps(60, end);
+}
+p:nth-child(4){
+    animation: type2 12s steps(60, end);
+}
+
+
+#typeWritingBar{
+    margin-top: 0.5px;
+    font-size: 18px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100%; }
+}
+
+
+@media screen and (max-width: 600px) {
+   /*tentar responsividade*/
 }
 
 .middle {
