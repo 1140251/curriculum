@@ -1,52 +1,75 @@
-.middle-top {
-    position: fixed;
-    top: 0%;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 
 #monitor-div{
-    margin-top: 100px;width: 500px;
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 96%;
+    transform: translate(-100%, -50%);
+    text-align: center;
 }
 
-#screen{
-    position:absolute;
-    width: 87.5%;
-    height: 75.2%;
-    left:7%;
+#developer{
+    width: 15%;
+}
+
+#monitor{
+    width: 100%;
+}
+#terminal, #terminal2, #terminal3, #terminal4{
+    width: 100%;
+}
+
+
+#name{
+    width: 100%;
+}
+
+#room{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.screen{
+    position: absolute;
+    width: 44%;
+    height: 39.5%;
     font-family: "Courier";
     font-size: 14px;
     color: #999;
-    margin-top: 5%;
     overflow: hidden;
     white-space: nowrap;
     word-wrap: break-word;
     font-size: 15px;
     animation: type 4s steps(60, end);
 }
-p{
-    overflow: hidden;
-    white-space: nowrap;
-
-    font-size: 15px;
-    animation: type 6s steps(60, end);
+#screen{
+    left: 3%;
+    margin-top: 2.9%;
 }
-
-p:nth-child(2){
-    animation: type2 6s steps(60, end);
+#screen2{
+    left: 53%;
+    margin-top: 2.9%;
 }
-p:nth-child(3){
-    animation: type2 9s steps(60, end);
+#screen3{
+    left: 3%;
+    margin-top: 32%;
 }
-p:nth-child(4){
-    animation: type2 12s steps(60, end);
+#screen4{
+    left: 53%;
+    margin-top: 32%;
 }
-
 
 #typeWritingBar{
     margin-top: 0.5px;
     font-size: 18px;
     animation: blink 1s infinite;
+}
+#window{
+    width: 100%;
 }
 
 @keyframes blink{
@@ -64,9 +87,6 @@ p:nth-child(4){
 }
 
 
-@media screen and (max-width: 600px) {
-   /*tentar responsividade*/
-}
 
 .middle {
     position: fixed;
@@ -75,10 +95,29 @@ p:nth-child(4){
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.developer{
+
+.top-left {
+    position: fixed;
+    left: 5%;
+    width: 20%;
+
+}
+
+#calendar{
+    width: 100%;
+}
+
+#calendar-div{
+    position: fixed;
+    left: 27%;
+    width: 7%;
+    display: none;
+}
+.developer-div{
     position: fixed;
     bottom: 0;
-    left: 70px;
+    left: 3%;
+    width: 100%;
 }
 .button{
     border-radius: 12px;
@@ -87,18 +126,36 @@ p:nth-child(4){
     border: 2px solid #e7e7e7;
 }
 
-.button-turn-off-on{
-    border-radius: 12px;
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
-}
-
-#monitor{
+html{
     width: 100%;
+    height: 100%;
 }
 
 
-#name{
+
+
+body{
+    background-color: #7B9E98;
+
+    position: fixed;
     width: 100%;
+    height: 100%;
+}
+
+p{
+    overflow: hidden;
+    white-space: nowrap;
+
+    font-size: 15px;
+    animation: type 6s steps(60, end);
+}
+
+p:nth-child(2){
+    animation: type2 6s steps(60, end);
+}
+p:nth-child(3){
+    animation: type2 9s steps(60, end);
+}
+p:nth-child(4){
+    animation: type2 12s steps(60, end);
 }
