@@ -3,6 +3,7 @@
     left: 42%;
     width: 48%;
     position: fixed;
+    top: 7%;
 }
 
 #developer {
@@ -126,7 +127,7 @@ button.control_next {
     left: 27%;
     width: 7%;
     display: none;
-    top: 5%;
+    top: 27%;
 }
 
 .developer-div {
