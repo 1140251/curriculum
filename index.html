@@ -9,15 +9,15 @@
     <meta http-equiv="pragma" content="no-cache"/>
     <title>Title</title>
     <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="middle" id="load-div">
     <img id="load" src="" alt="">
 </div>
 <div id="calendar-div">
-<object id="calendar" data="date.svg" type="image/svg+xml" >
-</object>
+    <object id="calendar" data="date.svg" type="image/svg+xml">
+    </object>
 </div>
 
 <div id="end-mobile" class="middle">
@@ -28,36 +28,36 @@
 </div>
 
 
-<div class="top-left"> <img id="window" src="window.svg" alt="" style="display: none; "></div>
+<div class="top-left"><img id="window" src="window.svg" alt="" style="display: none; "></div>
 <div id="monitor-div" style="display: none; ">
-    <div id="screen" class="screen" style="display: none;">
-        <img  id="terminal" src="browser.svg" alt="" />
-        <section id="home">
-            <h2>CLI - Command Line Interface</h2>
-            <p>Hi, my name is Daniel and this is my resume. </p>
-            <p>Welcome to my life in a geeky way !</p>
-            <p>danielmaiadias/home:/$<span id="typeWritingBar">|</span></p>
-        </section>
-    </div>
-    <div id="screen2" class="screen" style="display: none;">
-        <img  id="terminal2" src="browser.svg" alt="" />
-    </div>
-    <div id="screen3" class="screen" style="display: none;">
-        <img  id="terminal3" src="browser.svg" alt="" />
+    <div id="slider">
+        <div class="slide-div" style="width:100%">
+            <div id="content">
+                <img id="terminal" src="browser.svg" alt=""/>
+                <section id="section">
+                    <p><strong>Command Line Interface</strong></p>
+                    <p>Hi there, my name is Daniel!</p>
+                    <p id="text-age">Im a {age} year old developer from Porto.</p>
+                    <p>Welcome to my life in a geeky way !</p>
+                    <p> Press <i class="fa fa-long-arrow-left"></i> for Left or <i class="fa fa-long-arrow-right"></i>
+                        for Right</p>
+                    <p  id="written" >danielmaiadias/home:/$ php artisan serve</p>
 
+                </section>
+            </div>
+        </div>
+        <div class="slide-div" style="width:100%">SLIDE 2</div>
+        <div class="slide-div" style="width:100%">SLIDE 3</div>
+        <div class="slide-div" style="width:100%">SLIDE 4</div>
+        <button class="control_next" onclick="plusDivs(1)"><i class="fa fa-long-arrow-right"></i></button>
+        <button class="control_prev" onclick="plusDivs(-1)"><i class="fa fa-long-arrow-left"></i></button>
     </div>
-    <div id="screen4" class="screen" style="display: none;">
-        <img  id="terminal4" src="browser.svg" alt="" />
-    </div>
-    <img id="monitor" src="monitor2.svg" alt="" />
+    <img id="monitor" src="projector.svg" alt=""/>
 </div>
 
 <div class="developer-div">
-    <!--<div><img id="end" src="end.svg" alt="" style="display: none"></div>-->
-    <!--<div style="height: 60px"><button class="button">Fast Forward</button></div>-->
     <img id="developer" src="developer.svg" alt="" style="display: none">
 </div>
-<!--<img id="room" src="Office_room.svg" alt="" style="display: inline">-->
 </body>
 
 <script type="text/javascript" src="index.js"></script>

@@ -1,89 +1,102 @@
 
-
-#monitor-div{
-    width: 60%;
+#monitor-div {
+    left: 42%;
+    width: 48%;
     position: fixed;
-    top: 50%;
-    left: 96%;
-    transform: translate(-100%, -50%);
-    text-align: center;
 }
 
-#developer{
+#developer {
     width: 15%;
 }
 
-#monitor{
-    width: 100%;
-}
-#terminal, #terminal2, #terminal3, #terminal4{
+#monitor {
     width: 100%;
 }
 
-
-#name{
+#terminal {
     width: 100%;
 }
 
-#room{
-    position:fixed;
+#name {
+    width: 100%;
+}
+
+#room {
+    position: fixed;
     width: 100%;
     height: 100%;
     z-index: -1;
 }
 
-
-.screen{
+#slider {
+    left: 6%;
+    margin-top: 5%;
     position: absolute;
-    width: 44%;
-    height: 39.5%;
+    width: 88%;
+    height: 54%;
     font-family: "Courier";
-    font-size: 14px;
     color: #999;
     overflow: hidden;
     white-space: nowrap;
     word-wrap: break-word;
-    font-size: 15px;
-    animation: type 4s steps(60, end);
-}
-#screen{
-    left: 3%;
-    margin-top: 2.9%;
-}
-#screen2{
-    left: 53%;
-    margin-top: 2.9%;
-}
-#screen3{
-    left: 3%;
-    margin-top: 32%;
-}
-#screen4{
-    left: 53%;
-    margin-top: 32%;
 }
 
-#typeWritingBar{
-    margin-top: 0.5px;
+.slide-div {
+    height: 75%;
+}
+
+#section {
+    position: absolute;
+    width: 82%;
+    height: 61%;
+    top: 25%;
+
+}
+
+button.control_prev, button.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background-color: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
     font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+    border: none;
+}
+
+button.control_prev:hover, button.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+button.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+button.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+#typeWritingBar {
     animation: blink 1s infinite;
 }
-#window{
+
+#window {
     width: 100%;
 }
 
-@keyframes blink{
-    to{opacity: .0;}
-}
-
-@keyframes type{
-    from { width: 0; }
-}
-
-@keyframes type2{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100%; }
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
 }
 
 
@@ -100,62 +113,84 @@
     position: fixed;
     left: 5%;
     width: 20%;
+    top: 5%;
 
 }
 
-#calendar{
+#calendar {
     width: 100%;
 }
 
-#calendar-div{
+#calendar-div {
     position: fixed;
     left: 27%;
     width: 7%;
     display: none;
+    top: 5%;
 }
-.developer-div{
+
+.developer-div {
     position: fixed;
     bottom: 0;
-    left: 3%;
+    left: 5%;
     width: 100%;
 }
-.button{
+
+.button {
     border-radius: 12px;
     background-color: white;
     color: black;
     border: 2px solid #e7e7e7;
 }
 
-html{
+html {
     width: 100%;
     height: 100%;
 }
 
+#content {
+    width: 81%;
+    margin-top: 8%;
+    height: 100%;
+    margin-left: 9.5%;
+}
 
-
-
-body{
-    background-color: #7B9E98;
-
+body {
+    background-color:  #43A691;
     position: fixed;
     width: 100%;
     height: 100%;
 }
 
-p{
+p {
     overflow: hidden;
     white-space: nowrap;
+    margin: 5px 0 0 5px;
+    font-size: 1.2vw;
 
-    font-size: 15px;
-    animation: type 6s steps(60, end);
 }
 
-p:nth-child(2){
-    animation: type2 6s steps(60, end);
+#written {
+    display:inline-block;
+    animation: typing 3.5s steps(20, end),
+    blink-caret 1s infinite;
+    border-right: .15vw solid black;
 }
-p:nth-child(3){
-    animation: type2 9s steps(60, end);
+
+@keyframes typing {
+    0% {
+        width: 50%;
+    }
+    75%{
+        width: 85%;
+    }
 }
-p:nth-child(4){
-    animation: type2 12s steps(60, end);
+
+@keyframes blink-caret {
+    0%, 100% {
+        border-color: transparent
+    }
+    50% {
+        border-color: black;
+    }
 }
