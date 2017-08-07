@@ -6,7 +6,7 @@ window.onresize = function (event) {
 function setCalendar() {
     var calendar = document.getElementById("calendar");
     calendar.addEventListener("load", function () {
-        calendar.contentDocument.getElementById("day").textContent = new Date().getUTCDate().toString();
+        calendar.contentDocument.getElementById("day").textContent = (new Date().getUTCDate()<10 ? '0':'') + new Date().getUTCDate().toString();
         var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
         ];
