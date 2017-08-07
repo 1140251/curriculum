@@ -1,22 +1,14 @@
 
 #monitor-div {
     left: 42%;
-    width: 48%;
-    position: fixed;
+    width: 125%;
     top: 7%;
 }
 
 #developer {
-    width: 15%;
-}
-
-#monitor {
     width: 100%;
 }
 
-#terminal {
-    width: 100%;
-}
 
 #name {
     width: 100%;
@@ -29,22 +21,7 @@
     z-index: -1;
 }
 
-#slider {
-    left: 6%;
-    margin-top: 5%;
-    position: absolute;
-    width: 88%;
-    height: 54%;
-    font-family: "Courier";
-    color: #999;
-    overflow: hidden;
-    white-space: nowrap;
-    word-wrap: break-word;
-}
 
-.slide-div {
-    height: 75%;
-}
 
 #section {
     position: absolute;
@@ -52,42 +29,6 @@
     height: 61%;
     top: 25%;
 
-}
-
-button.control_prev, button.control_next {
-    position: absolute;
-    top: 40%;
-    z-index: 999;
-    display: block;
-    padding: 4% 3%;
-    width: auto;
-    height: auto;
-    background-color: #2a2a2a;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    opacity: 0.8;
-    cursor: pointer;
-    border: none;
-}
-
-button.control_prev:hover, button.control_next:hover {
-    opacity: 1;
-    -webkit-transition: all 0.2s ease;
-}
-
-button.control_prev {
-    border-radius: 0 2px 2px 0;
-}
-
-button.control_next {
-    right: 0;
-    border-radius: 2px 0 0 2px;
-}
-
-#typeWritingBar {
-    animation: blink 1s infinite;
 }
 
 #window {
@@ -124,17 +65,17 @@ button.control_next {
 
 #calendar-div {
     position: fixed;
-    left: 27%;
-    width: 7%;
     display: none;
-    top: 27%;
+    right: 7%;
+    width: 7em;
+    top: 12%;
 }
 
 .developer-div {
     position: fixed;
     bottom: 0;
-    left: 5%;
-    width: 100%;
+    right: 5%;
+    width: 15%;
 }
 
 .button {
@@ -155,12 +96,15 @@ html {
     height: 100%;
     margin-left: 9.5%;
 }
+#cv{
+    width: 75%;
+}
 
 body {
-    background-color:  #43A691;
-    position: fixed;
+    background-color: #43A691;
     width: 100%;
     height: 100%;
+    overflow: scroll;
 }
 
 p {
