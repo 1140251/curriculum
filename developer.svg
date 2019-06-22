@@ -2,13 +2,13 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="180px" height="350px" viewBox="0 0 180 350" enable-background="new 0 0 180 350" xml:space="preserve">
+	 width="210px" height="350px" viewBox="0 0 180 350" enable-background="new 0 0 180 350" xml:space="preserve">
 <defs><style>
 
 		#computer{ animation: tapWobble 0.7 linear infinite;animation-delay: 5s;}
-		#left-arm{ transform-origin: 90% 25%; animation: typeLeft 0.8s linear infinite; animation-delay: 5s;}
+		#left-arm{ transform-origin: 100% 35%; animation: typeLeft 0.8s linear infinite; animation-delay: 5s;}
 		#right-arm{ transform-origin: 9% 35%; transform: rotateZ(0deg); animation: typeLeft 0.8s linear infinite;animation-delay: 5s;}
-		#left{ transform-origin: 35% 12%; animation: tapRight 1s linear infinite;animation-delay: 5s;}
+		#left{ transform-origin: 20% 5%; animation: tapRight 1s linear infinite;animation-delay: 5s;}
         #body{ animation: sway 20s ease infinite; transform-origin: 50% 100%;}
         #head{ transform-origin: 50% 85%; animation: headTilt 20s ease infinite;}
 
@@ -16,12 +16,12 @@
 @keyframes sway {
     0%   { transform: rotateZ(0deg); }
     20%  { transform: rotateZ(0deg); }
-    25%  { transform: rotateZ(4deg); }
-    45%  { transform: rotateZ(4deg); }
+    25%  { transform: rotateZ(2deg); }
+    45%  { transform: rotateZ(2deg); }
     50%  { transform: rotateZ(0deg); }
     70%  { transform: rotateZ(0deg); }
-    75%  { transform: rotateZ(-4deg); }
-    90%  { transform: rotateZ(-4deg); }
+    75%  { transform: rotateZ(-2deg); }
+    90%  { transform: rotateZ(-2deg); }
     100% { transform: rotateZ(0deg); }
 }
 
@@ -29,13 +29,13 @@
 @keyframes typeLeft {
   0%   { transform: rotateZ(0deg); }
   25%  { transform: rotateZ(7deg); }
-  75%  { transform: rotateZ(-6deg); }
+  75%  { transform: rotateZ(-3deg); }
   100% { transform: rotateZ(0deg); }
 }
 
 @keyframes typeRight {
   0%   { transform: rotateZ(0deg); }
-  25%  { transform: rotateZ(-6deg); }
+  25%  { transform: rotateZ(-3deg); }
   75%  { transform: rotateZ(7deg); }
   100% { transform: rotateZ(0deg); }
 }
@@ -48,31 +48,30 @@
 
 @keyframes tapRight {
   0%   { transform: rotateZ(0deg); }
-  90%  { transform: rotateZ(-6deg); }
+  90%  { transform: rotateZ(-1deg); }
   100% { transform: rotateZ(0deg); }
 }
 
 @keyframes headTilt {
   0%   { transform: rotateZ(0deg); }
   20%  { transform: rotateZ(0deg); }
-  25%  { transform: rotateZ(-4deg); }
-  35%  { transform: rotateZ(-4deg); }
-  38%  { transform: rotateZ(2deg); }
-  42%  { transform: rotateZ(2deg); }
-  45%  { transform: rotateZ(-4deg); }
+  25%  { transform: rotateZ(-2deg); }
+  35%  { transform: rotateZ(-2deg); }
+  38%  { transform: rotateZ(0.5deg); }
+  42%  { transform: rotateZ(0.5deg); }
+  45%  { transform: rotateZ(-2deg); }
   50%  { transform: rotateZ(0deg); }
   70%  { transform: rotateZ(0deg); }
   82%  { transform: rotateZ(0deg); }
-  85%  { transform: rotateZ(4deg); }
-  90%  { transform: rotateZ(4deg); }
+  85%  { transform: rotateZ(2deg); }
+  90%  { transform: rotateZ(2deg); }
   100% { transform: rotateZ(0deg); }
 }
 	</style></defs>
 
 
     <g id="developer">
-		<animate  fill="remove" from="0" begin="0s" restart="always" dur="5s" to="1" additive="replace" calcMode="linear" attributeName="opacity" accumulate="none">
-		</animate>
+
 	<g id="chair">
 		<path fill="#999999" d="M87.183,316.531c0,1.551,1.259,2.814,2.813,2.814l0,0c1.551,0,2.811-1.266,2.811-2.814v-94.18
 			c0-1.551-1.26-2.806-2.811-2.806l0,0c-1.555,0-2.813,1.255-2.813,2.806V316.531z"/>
