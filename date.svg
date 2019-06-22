@@ -23,6 +23,6 @@
 		</g>
 	</g>
 </g>
-<text id="day" transform="matrix(1 0 0 1 298.7649 207.5593)" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="18">20</text>
-<text id="month" transform="matrix(1 0 0 1 294.2649 232.8948)" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="18">Jun</text>
+<text id="day" transform="matrix(1 0 0 1 298.7649 207.5593)" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="18"></text>
+<text id="month" transform="matrix(1 0 0 1 294.2649 232.8948)" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="18"></text>
 </svg>
