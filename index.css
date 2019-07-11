@@ -141,8 +141,39 @@ div.start {
   animation: dash 15s linear forwards, filling 4s ease-in forwards;
 }
 
+.steam1{
+  -webkit-animation: steaming 7s linear infinite;
+  -moz-animation: steaming 7s linear infinite;
+  animation: steaming 7s linear infinite;
+}
+
+@keyframes steaming {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+
+  50% { opacity: 1; }
+
+  100% {
+    transform: translateY(-15px);
+    opacity: 0;
+  }
+}
+
+.floor{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ color: white;
+ background-color: white;
+ height: 120px;
+ z-index: -2;
+}
+
+
 .text-fill text {
-  animation: filling 4s ease-in forwards;
+  animation: filling 1s ease-in forwards;
 }
 
 @keyframes filling {
