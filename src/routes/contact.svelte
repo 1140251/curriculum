@@ -68,6 +68,7 @@
     src="https://www.google.com/recaptcha/api.js"
     async="false"
     defer="false"></script>
+    <title>Daniel Dias | Contact</title>
 </svelte:head>
 
 <div class="contact-wrapper">
