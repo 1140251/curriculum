@@ -1,0 +1,7 @@
+[
+  { "name": "Svelte", "link": "https://svelte.dev/" },
+  { "name": "Angular", "link": "https://angular.io/" },
+  { "name": "React", "link": "https://reactjs.org/" },
+  { "name": ".NET", "link": "https://dotnet.microsoft.com/" },
+  { "name": "Flutter", "link": "https://flutter.dev/" }
+]

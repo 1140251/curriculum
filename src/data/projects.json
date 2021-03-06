@@ -1,0 +1,52 @@
+[
+  {
+    "title": "EthSential",
+    "start": "18 Sep 2020",
+    "end": "6 Oct 2020",
+    "categories": ["all", "academic"],
+    "tags": ["Ethereum", "Python", "VSCode"],
+    "description": "EthSential is a security analysis framework for Ethereum smart contracts. It bundles security analysis tools (Mythril, Securify and Slither) to find vulnerabilities in smart contracts code.",
+    "thumb": "/images/ethsential-analysis-execution.png",
+    "homePage": "https://github.com/1140251/Ethsential"
+  },
+  {
+    "title": "Adega São Pedro",
+    "start": "18 Apr 2020",
+    "end": "18 May 2020",
+    "categories": ["all", "professional"],
+    "tags": ["Svelte", "Strapi", "MongoDB"],
+    "description": "A traditional portuguese restaurant website with a daily menu and information about the restaurant.",
+    "thumb": "/images/screencapture-adegasaopedro.png",
+    "homePage": "https://adegasaopedro.pt/"
+  },
+  {
+    "title": "Daniel Dias Personal Website",
+    "start": "13 Feb 2021",
+    "end": "Present",
+    "categories": ["all", "hobby"],
+    "tags": ["Svelte", "Sapper", "Github Pages"],
+    "thumb": "/images/undraw_web_developer_p3e5.png",
+    "description": "My personal website where I occasionally add some projects and articles.",
+    "homePage": "https://1140251.github.io"
+  },
+  {
+    "title": "The Twenties",
+    "start": "23 0ct 2017",
+    "end": "23 0ct 2017",
+    "categories": ["all", "hobby"],
+    "tags": ["Java", "Swing"],
+    "thumb": "/images/The_Twenties_Menu.png",
+    "description": "A desktop application based on the 20-20-20 rule that will help you to schedule the time spent looking at a screen and help you to reduce eye-strain.",
+    "homePage": "https://github.com/1140251/the_twenties"
+  },
+  {
+    "title": "Weather App",
+    "start": "12 Jul 2018",
+    "end": "16 Mar 2018",
+    "categories": ["all", "hobby"],
+    "thumb": "/images/weather-app.png",
+    "tags": ["Node", "Express"],
+    "description": "A simple Weather App based on a specific location.",
+    "homePage": "https://github.com/1140251/WeatherApp-node-express"
+  }
+]

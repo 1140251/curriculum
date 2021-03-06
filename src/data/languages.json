@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Golang",
+    "link": "https://golang.org/"
+  },
+  {
+    "name": "JavaScript",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+  },
+  { "name": "C#", "link": "https://docs.microsoft.com/en-us/dotnet/csharp/" },
+  { "name": "Python", "link": "https://www.python.org/" },
+  { "name": "Dart", "link": "https://dart.dev/" }
+]
