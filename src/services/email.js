@@ -8,7 +8,8 @@ export const sendEmail = (form, token) => {
       JSON.stringify({
         form,
         "g-recaptcha-response": token,
-      })
+      }),
+      { withCredentials: true }
     )
     .then(function (response) {
       if (response.status === 200) {
