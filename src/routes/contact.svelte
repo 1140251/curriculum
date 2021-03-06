@@ -1,5 +1,5 @@
 <script>
-  import { onDestroy, onMount } from "svelte";
+  import { onMount } from "svelte";
   import { emailValidator, requiredValidator } from "../common/validator.js";
   import { sendEmail } from "../services/email.js";
   let form = {};
@@ -14,12 +14,13 @@
 
   onMount(() => {
     form = { name: "", email: "", subject: "", message: "" };
+    loadRecapatcha();
+    if(window != undefined){
     window.handleSubmit = handleSubmit;
+    }
   });
 
-  onDestroy(() => {
-    window.handleSubmit = null;
-  });
+
 
   async function handleSubmit(token) {
     await sendEmail(form, token)
@@ -61,13 +62,17 @@
       });
     }
   };
+
+  function loadRecapatcha(){
+    const script = document.createElement("script");
+    script.type = "text/javascript"
+    script.src = "https://www.google.com/recaptcha/api.js"
+document.getElementsByTagName("head")[0].appendChild(script)
+    
+  }
 </script>
 
 <svelte:head>
-  <script
-    src="https://www.google.com/recaptcha/api.js"
-    async="false"
-    defer="false"></script>
     <title>Daniel Dias | Contact</title>
 </svelte:head>
 
@@ -356,5 +361,10 @@
 
   :global(.grecaptcha-badge) {
     margin-bottom: 40px;
+  }
+
+  #sendmessage{
+
+    color: green;
   }
 </style>

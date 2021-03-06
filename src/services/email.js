@@ -1,18 +1,22 @@
 import axios from "axios";
 
 export const sendEmail = (form, token) => {
-  debugger;
   return axios
     .post(
-      "https://v2hggd8r53.execute-api.us-east-2.amazonaws.com/default",
+      "https://v2hggd8r53.execute-api.us-east-2.amazonaws.com/default/PersonalWebsiteContactForm",
       JSON.stringify({
         form,
         "g-recaptcha-response": token,
       }),
-      { withCredentials: true }
+      {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      }
     )
     .then(function (response) {
-      if (response.status === 200) {
+      if (response.status === 200 && response.data) {
         return { success: true };
       }
       return { success: false };
